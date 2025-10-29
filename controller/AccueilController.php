@@ -20,11 +20,12 @@ class AccueilController {
       try {
         $secretKey = "my_token_secret_key";
         $decoded = JWT::decode($_COOKIE['auth_token'], new Key($secretKey, 'HS256'));
-        if (!empty($decoded->role) && $decoded->role === 'admin') {
+        $role = $decoded->role ?? '';
+        if ($role === 'admin' || $role === 'administrator') {
           $isadmin = true;
         }
       } catch (Exception $e) {
-        // Ne pas exit() ici ; on considère juste que l'utilisateur n'est pas admin
+        // Ne pas exit() ici ; 
         $isadmin = false;
       }
     }

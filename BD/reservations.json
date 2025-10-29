@@ -1,0 +1,22 @@
+{
+  "reservations": [
+    {
+      "id": 1,
+      "userId": 2,
+      "spectacleId": 3,
+      "spectacleTitre": "Carmen",
+      "seats": 2,
+      "reservationDate": "2025-10-01T12:34:00+00:00",
+      "status": "confirmed"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "spectacleId": 4,
+      "spectacleTitre": "Mon soleil",
+      "seats": 1,
+      "reservationDate": "2025-10-02T09:00:00+00:00",
+      "status": "pending"
+    }
+  ]
+}

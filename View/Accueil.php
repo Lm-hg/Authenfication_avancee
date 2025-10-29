@@ -8,24 +8,27 @@
 <body>
   <header>
     <nav>
-      <a href="/">Accueil</a>
+  <a href="index.php?route=accueil">Accueil</a><br>
     <?php
     // Afficher le lien d'ajout de spectacle uniquement pour l'admin
     if (!empty($isadmin)) {
-      echo '<a href="addSpectacle">Ajouter Spectacle</a>';
+      echo '<a href="index.php?route=add_spectacle">Ajouter Spectacle</a><br>';
+       // lien vers les réservations (pour admin on peut aussi voir toutes, mais ici lien personnel)
+       echo '<a href="index.php?route=mes_reservations">Mes réservations</a><br>';
     }
     // Afficher le lien de déconnexion si l'utilisateur est connecté
     if (!empty($isLoggedIn)) {
-      echo '<a href="logout.php">Déconnexion</a>';
+      echo '<a href="index.php?route=logout">Déconnexion</a><br>';
+       echo '<a href="index.php?route=mes_reservations">Mes réservations</a><br>';
     } else {
-      echo '<a href="sign_in.php">Connexion</a>';
+      echo '<a href="index.php?route=connexion">Connexion</a><br>';
     }
     ?>
-    <?= htmlspecialchars($name ?? '', ENT_QUOTES, 'UTF-8') ?>
+
     </nav>
   </header>
   <main>
-    <h1>Bienvenue sur la page d'accueil</h1>
+    <h1>Bienvenue sur la page d'accueil <span style="color: brown;"><?= htmlspecialchars($name ?? '', ENT_QUOTES, 'UTF-8') ?></span></h1>
     <p>Voici les spectacles disponibles</p>
     <?php if (!empty($spectacles) && is_array($spectacles)): ?>
       <?php foreach ($spectacles as $spectacle): ?>
