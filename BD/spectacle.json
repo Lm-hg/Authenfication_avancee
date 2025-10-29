@@ -1,0 +1,31 @@
+{
+  "spectacles"  : [
+    {
+      "id": 1,
+      "titre": "Le Lac des Cygnes",
+      "artiste": "Piotr Ilitch Tchaïkovski",
+      "url" : "https://www.bing.com/images/search?view=detailV2&ccid=7%2bzd6LYP&id=FA68F1313D631509E0EA8D8E818373AFE718465D&thid=OIP.7-zd6LYPa38LHZnX7HhfHAHaD4&mediaurl=https%3a%2f%2fcdn.sortiraparis.com%2fimages%2f80%2f69688%2f939408-le-lac-des-cygnes-ballet-orchestre-au-palais-des-congres-de-paris-une-performance-epoustouflante-a-ne-pas-manquer.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.efecdde8b60f6b7f0b1d99d7ec785f1c%3frik%3dXUYY569zg4GOjQ%26pid%3dImgRaw%26r%3d0&exph=504&expw=960&q=le+lac+des+cygnes&FORM=IRPRST&ck=3850219270995F35908B424A28FA7E18&selectedIndex=0&itb=0",
+      "date": "2024-07-15",
+      "lieu": "Opéra Garnier, Paris",
+      "prix": 75.00
+    },
+    {
+      "id": 2,
+      "titre": "Hamlet",
+      "artiste": "William Shakespeare",
+      "url":"https://www.bing.com/images/search?view=detailV2&ccid=EHEzNGu1&id=F2209CBFEE01EAC9FE3533B551747F45CE255F84&thid=OIP.EHEzNGu11-v8svpzuOYhVgHaEK&mediaurl=https%3a%2f%2fimages.squarespace-cdn.com%2fcontent%2fv1%2f5f99533e05b2437f272b82bb%2ff25b5a17-38b4-4a4d-826a-a774211cc0f6%2fHamlet2023landscape3.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.107133346bb5d7ebfcb2fa73b8e62156%3frik%3dhF8lzkV%252fdFG1Mw%26pid%3dImgRaw%26r%3d0&exph=1080&expw=1920&q=Hamlet&FORM=IRPRST&ck=931E027431275C006B2D3FF2539E5E5E&selectedIndex=9&itb=0",
+      "date": "2024-08-20",
+      "lieu": "Théâtre de la Ville, Paris",
+      "prix": 60.00
+    },
+    {
+      "id": 3,
+      "titre": "Carmen",
+      "url":"https://www.bing.com/images/search?view=detailV2&ccid=w%2bRjm%2f0t&id=C96401EC2D74DE1E3DE8C2376EC0DBA38DBD7A9B&thid=OIP.w-Rjm_0trk4gLqVGnfq3OgHaEK&mediaurl=https%3a%2f%2fi.ytimg.com%2fvi%2fLw1_GXU_rAQ%2fmaxresdefault.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.c3e4639bfd2dae4e202ea5469dfab73a%3frik%3dm3q9jaPbwG43wg%26pid%3dImgRaw%26r%3d0&exph=720&expw=1280&q=Carmen&FORM=IRPRST&ck=D3DA7B2A6B476DB408923DE62EE55AC8&selectedIndex=1&itb=0",
+      "artiste": "Georges Bizet",
+      "date": "2024-09-10",
+      "lieu": "Opéra Bastille, Paris",
+      "prix": 80.00
+    }
+]
+}
