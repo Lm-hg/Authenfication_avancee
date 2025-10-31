@@ -1,4 +1,5 @@
 <?php
+session_start();
 // Route detection robust : GET param ?route=..., sinon PATH_INFO, sinon REQUEST_URI
 // This works when your server doesn't populate PATH_INFO (common on some setups).
 $route = '/accueil';
@@ -67,6 +68,27 @@ switch ($route) {
             require_once './controller/ReservationsController.php';
             $controller = new ReservationsController();
             $controller->afficherMesReservations();
+            break;
+        case '/reserver':
+            require_once './controller/ReservationsController.php';
+            $controller = new ReservationsController();
+            // show form
+            $controller->afficherFormulaireReservation();
+            break;
+        case '/creer_reservation':
+            require_once './controller/ReservationsController.php';
+            $controller = new ReservationsController();
+            $controller->creerReservation();
+            break;
+        case '/2fa_setup':
+            require_once './controller/TwoFAController.php';
+            $c2 = new TwoFAController();
+            $c2->setup();
+            break;
+        case '/2fa_verify':
+            require_once './controller/TwoFAController.php';
+            $c2 = new TwoFAController();
+            $c2->verify();
             break;
         default:
             require_once './controller/Error404Controller.php';

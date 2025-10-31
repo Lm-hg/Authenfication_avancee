@@ -9,6 +9,7 @@
   <h1>Mes réservations</h1>
   <?php if (empty($reservations)): ?>
     <p>Vous n'avez aucune réservation.</p>
+<link rel="stylesheet" href="/assets/style.css">
   <?php else: ?>
     <?php foreach ($reservations as $r): ?>
       <div>

@@ -1,28 +1,36 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "name": "admin",
-      "role": "administrator",
-      "password": "adminpass"
-    },
-    {
-      "id": 2,
-      "name": "user1",
-      "role": "standard",
-      "password": "securepass"
-    },
-    {
-      "id": 3,
-      "name": "user2",
-      "role": "standard",
-      "password": "mypassword"
-    },
-    {
-      "id": 4,
-      "name": "user3",
-      "role": "standard",
-      "password": "password123"
-    }
-  ]
+    "users": [
+        {
+            "id": 1,
+            "name": "admin",
+            "role": "administrator",
+            "password": "adminpass",
+            "twofa_enabled": true,
+            "twofa_secret": "OB2V2LQBIP6ETQB6"
+        },
+        {
+            "id": 2,
+            "name": "user1",
+            "role": "standard",
+            "password": "securepass",
+            "twofa_enabled": true,
+            "twofa_secret": "EHSNQDIYGII7UVVL"
+        },
+        {
+            "id": 3,
+            "name": "user2",
+            "role": "standard",
+            "password": "mypassword",
+            "twofa_enabled": true,
+            "twofa_secret": "HR3Q5QQ4DPCLLDE2"
+        },
+        {
+            "id": 4,
+            "name": "user3",
+            "role": "standard",
+            "password": "password123",
+            "twofa_enabled": true,
+            "twofa_secret": "L2KGTT5XLI3VAUM6"
+        }
+    ]
 }

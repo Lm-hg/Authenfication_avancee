@@ -138,5 +138,6 @@ html {
 <br /><br />
 <span class="info">File not found</span>
 <img src="http://images2.layoutsparks.com/1/160030/too-much-tv-static.gif" class="static" />
+<link rel="stylesheet" href="/assets/style.css">
 </body>
 </html>

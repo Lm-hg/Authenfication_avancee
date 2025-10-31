@@ -9,6 +9,7 @@
 	<h1>Ajouter un spectacle</h1>
 
 		<form action="index.php?route=addSpectacle" method="post">
+<link rel="stylesheet" href="/assets/style.css">
 		<label for="titre">Titre</label>
 		<input id="titre" name="titre" type="text" required>
 
